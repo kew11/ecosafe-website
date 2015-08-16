@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"/>
+<title>Eco Safe Paper Baggings</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+</head>
+<body>
+<!----------------------- start of header -------------------------->
+<div id="header_wrapper">
+	<div class="wrapper">
+		<div id="header">
+        	<div id="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+            <div id="menu">
+            	<ul id="nav">
+                	<li class="first"><a href="index.html">Home</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="javascript:void(0);" class="active">Clients</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------ end of header --------------------------->
+
+<!------------------------ start of top ---------------------------->
+<div id="top_wrapper">
+	<div class="wrapper">
+		<div id="content_block">
+        	   	<h1>Our Clients</h1>
+                	<table>
+                     <tr>
+                       <td style="padding-right:40px;">
+                      	<ul class="list1" style="padding-left:30px;">
+                			<li>Arvind Mills</li>
+                			<li>Aviram Knitters</li>
+               	   			<li>Best Sellers</li>
+                			<li>Casual Garments</li>
+                    		<li>Unitex Apparels</li>
+                    		<li>Gini & Johny</li>
+                            <img src="images/JustLaughShirtCapBorder.jpg" style="margin-top:20px;margin-bottom:20px;width:250px;height:200px;">
+                		 </ul>
+                 	 	</td>
+                      <td style="padding-right:50px;">
+                      	<img src="images/My Journal hi.jpg" style="width:250px;height:200px;">
+                        <ul class="list1" style="padding-left:30px; padding-top:30px;">
+                	       	<li>Indus Garments</li>
+                			<li>ITA</li>
+                			<li>Indian Express</li>
+                            <li>Kahawa</li>
+            			</ul>
+                     </td>
+                     <td style="padding-right:50px;">
+                      <ul class="list1" style="padding-left:40px;">
+                      	<li>Levi Strauss India Pvt. Ltd.</li>
+               			<li>Madhura Garments</li>
+                		<li>Mercureal Inc</li>
+                		<li>Pratheek Apparels</li>
+                         <img src="images/BusinessCardStack.jpg" width="200px" height="150px">
+                         <li>Shakthi Apparels</li>
+                		 <li>Shapoorji & Pallonji</li>
+                		 <li>Envision Network Technologies Ltd.</li>
+                		 <li>Wounder Blues</li>
+                      </ul>
+                     </td>
+                    </tr>
+                    </table>
+              
+        	
+        </div>
+	</div>
+</div>
+<!------------------------- end of top ----------------------------->
+
+<!----------------------- start of footer -------------------------->
+<div id="footer_wrapper">
+	<div class="wrapper">
+		<div id="footer">
+        	<div id="copyright">Copyright &copy; 2014, Eco Safe Paper Baggings</div>
+            <div id="social">
+            	<ul>
+                	<li><a href="javascript:void(0);" target="_blank"><img src="images/blueprint-social-03.png" title="Like us on Facebook"></a></li>
+                    <li><a href="javascript:void(0);" target="_blank"><img src="images/blueprint-social-15.png" title="Join us on Linkedin"></a></li>
+                    <li><a href="javascript:void(0);" target="_blank"><img src="images/blueprint-social-01.png" title="Follow us on Twitter"></a></li>
+                </ul>
+            </div>
+            <div id="powered">Developed by Vinit Desai</div>
+        </div>
+	</div>
+</div>
+<!----------------------- end of footer ---------------------------->
+</body>
+</html>

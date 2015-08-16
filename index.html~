@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"/>
+<title>Eco Safe Paper Baggings</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+</head>
+<body>
+<!------------------------ start of menu --------------------------->
+<!--<div id="menu_wrapper">
+	<div class="wrapper">
+		<div id="menu"></div>
+    </div>
+</div>-->
+<!------------------------ end of menu ----------------------------->
+
+<!----------------------- start of header -------------------------->
+<div id="header_wrapper">
+	<div class="wrapper">
+		<div id="header">
+        	<div id="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+            <div id="menu">
+            	<ul id="nav">
+                	<li class="first"><a href="javascript:void(0);" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="clients.html">Clients</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="banner"></div>
+	</div>
+</div>
+<!------------------------ end of header --------------------------->
+
+<!------------------------ start of top ---------------------------->
+<div id="top_wrapper">
+	<div class="wrapper">
+		<div id="content_block">
+        	<div style="float:left;width:60%;">
+            	<h1>Welcome to Eco Safe</h1>
+                <p>We have emerged as one of the prominent Manufacturers, Service Provider and Suppliers of a comprehensive assortment of Paper Products. We are also provider of Printing Services for logo t-shirts etc. Our offered range includes Cover Offset Printing, Offset Printing Press, Wall Offset Printing, Offset Frame Printing, Offset Calender Printing, Offset Book Printing, Digital Printings, Screen Printing, Garment Tags Printings, Office Stationary Printings, Wedding Cards Printings, Printed Paper Bags, Brochures Printings, Pamphlet Printings, T-Shirt Printings, Mug Printings, Caps Printing, Traveling Bags Printing. <br><br>With the use of superior quality materials and the latest technology, these products are fabricated as per the defined industry standards. Our offered range of products are widely appreciated by the customers for attributes like environment friendliness, smooth finish, attractive patterns and high utility. Apart from this, we also offer the clients with our qualitative customized, multi coloured adhesive tapes with your company  logo and name which can be used for packaging and labeling. T-Shirt Printing Services, Printing of Logos for T-shirts and Digital Printing Services.
+                </p>
+                <a class="rm" href="about.html">Read More</a>
+            </div>
+            <div style="float:right;width:35%;">
+            <h1>What our clients say</h1>
+            	<div class="box3">   
+        			<div class="content newbox">
+        				<div id="page1">
+						<ul id="ticker_03" class="ticker1">
+ 						<li>
+        					<div class="datebox12">
+            				<p><img src="images/testi.png" style="float:left;margin-right:20px;">
+                			<p style="color:#2abe60;font-weight:bold;"><span style="font-size:16px;text-transform:uppercase;">CLIENT'S NAME</span>						  							<br>
+                			<strong>Company Name</strong>
+        					</div>
+        					Some content will be here Some content will be here Some content will be here Some content will be here Some content will be here Some content will be here Some content will be here Some content will be here
+						</li>
+						<li>
+        	<div class="datebox12">
+            				<p><img src="images/testi.png" style="float:left;margin-right:20px;">
+                <p style="color:#2abe60;font-weight:bold;"><span style="font-size:16px;text-transform:uppercase;">CLIENT'S NAME</span><br>
+                <strong>Company Name</strong>
+        		</div>
+        	Some content will be here Some content will be here Some content will be here Some content will be here Some content will be here Some content will be here Some content will be here Some content will be here Some content will be here
+        </li>
+		
+	</ul>
+</div> <!-----end of page-------->
+<script>
+
+	function tick(){
+		$('#ticker_01 li:first').slideUp( function () { $(this).appendTo($('#ticker_01')).slideDown(); });
+	}
+	setInterval(function(){ tick () }, 5000);
+
+
+	function tick2(){
+		$('#ticker_03 li:first').slideUp( function () { $(this).appendTo($('#ticker_03')).slideDown(); });
+	}
+	setInterval(function(){ tick2 () }, 3000);
+
+
+	function tick3(){
+		$('#ticker_02 li:first').animate({'opacity':0}, 200, function () { $(this).appendTo($('#ticker_02')).css('opacity', 1); });
+	}
+	setInterval(function(){ tick3 () }, 4000);	
+
+	function tick4(){
+		$('#ticker_04 li:first').slideUp( function () { $(this).appendTo($('#ticker_04')).slideDown(); });
+	}
+	/**
+	 * USE TWITTER DATA
+	 */
+
+	 $.ajax ({
+		 url: 'http://search.twitter.com/search.json',
+		 data: 'q=%23javascript',
+		 dataType: 'jsonp',
+		 timeout: 10000,
+		 success: function(data){
+		 	if (!data.results){
+		 		return false;
+		 	}
+
+		 	for( var i in data.results){
+		 		var result = data.results[i];
+		 		var $res = $("<li />");
+		 		$res.append('<img src="' + result.profile_image_url + '" />');
+		 		$res.append(result.text);
+
+		 		console.log(data.results[i]);
+		 		$res.appendTo($('#ticker_04'));
+		 	}
+			setInterval(function(){ tick4 () }, 4000);	
+
+			$('#example_4').show();
+
+		 }
+	});
+</script>
+            </div>   <!-------------END of content newbox------------------>
+            </div>   <!-------------END of box3------------------>
+            </div>
+        </div>
+	</div>
+</div>
+<!------------------------- end of top ----------------------------->
+
+<!---------------------- start of bottom --------------------------->
+<!--<div id="bottom_wrapper">
+	<div class="wrapper">
+		
+	</div>
+</div>-->
+<!------------------------ end of bottom --------------------------->
+
+<!----------------------- start of footer -------------------------->
+<div id="footer_wrapper">
+	<div class="wrapper">
+		<div id="footer">
+        	<div id="copyright">Copyright @2013, Eco Safe Paper Baggings</div>
+            <div id="social">
+            	<ul>
+                	<li><a href="javascript:void(0);" target="_blank"><img src="images/blueprint-social-03.png" title="Like us on Facebook"></a></li>
+                    <li><a href="javascript:void(0);" target="_blank"><img src="images/blueprint-social-15.png" title="Join us on Linkedin"></a></li>
+                    <li><a href="javascript:void(0);" target="_blank"><img src="images/blueprint-social-01.png" title="Follow us on Twitter"></a></li>
+                </ul>
+            </div>
+            <div id="powered">Powered by <a href="http://www.aryatne.com/" target="_blank">ARYA Technologies</a></div>
+        </div>
+	</div>
+</div>
+<!----------------------- end of footer ---------------------------->
+</body>
+</html>
