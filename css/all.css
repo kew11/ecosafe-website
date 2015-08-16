@@ -1,0 +1,60 @@
+/* SIMLPE CSS RESET */
+
+
+
+#container { width: 100%; margin: 0 auto;height:auto;min-height:430px;}
+/*- -*/
+/*- FILTER OPTIONS -*/
+ul#filterOptions {
+	width: 802px;
+	height: 52px;
+	margin: 30px 14px;
+	overflow: hidden;
+}
+ul#filterOptions li { height: 52px; margin-right: 2px; display: inline-block; float: left; }
+ul#filterOptions li a {
+	height: 40px;
+	padding: 0 20px;
+	/*border-radius:5px;*/
+	box-shadow:2px 2px 5px #333;
+	color:#000;
+	background:#114b26 url(../images/header.png) repeat-x left top;	
+	font-weight: bold;
+	line-height: 40px;
+	text-decoration: none;
+	display:inline-block;
+}
+ul#filterOptions li a:hover, ul#filterOptions li.active a { 
+	background:#333 ;
+	color:#35f079; 
+}
+/*ul#filterOptions li.active a { background: #999; }*/
+/*- -*/
+/*- OUR DATA HOLDER -*/
+ul.ourHolder {
+	width: 100%;
+	/*height: 850px;*/
+	overflow: hidden;
+}
+ul.ourHolder li.item {
+	width: 160px;
+	height: 180px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	padding-top:8px;
+	padding-bottom:16px;
+	margin-right:18px;
+	font-weight:bold;
+	line-height: 20px; 
+}
+ul.ourHolder li img {
+	width:150px;
+	height:150px;
+}
+ul.ourHolder li.item  { 
+
+	
+}
+
+
